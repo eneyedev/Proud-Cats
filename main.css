@@ -288,6 +288,7 @@ a {
 
 /*PROUD-CATS__MAIN__BENEFIT*/
 .proud-cats__main__benefit {
+  padding: 1rem;
   background: #481515;
 }
 .proud-cats__main__benefit .wrapper {
