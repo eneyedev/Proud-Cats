@@ -169,6 +169,10 @@ a {
 }
 
 /*PROUD-CATS__MAIN*/
+.proud-cats__main {
+  /*background: #000000;*/
+}
+
 /*PROUD-CATS__MAIN__HERO-INTRO*/
 .proud-cats__main__hero-intro {
   height: 400px;
@@ -210,6 +214,8 @@ a {
 .twitter,
 .discord {
   width: 40px;
+  box-shadow: black 5rem 2rem 1rem;
+  cursor: pointer;
 }
 
 .cat-foot-print-small__top {
@@ -450,12 +456,14 @@ a {
 }
 
 .proud-cats__footer .wrapper .logo {
+  cursor: pointer;
   width: 140px;
 }
 
 .proud-cats__footer .wrapper .footer-social-media {
   width: 60px;
   height: 60px;
+  cursor: pointer;
 }
 
 /*PROUD-CATS__@730PX*/
@@ -612,7 +620,7 @@ a {
   }
 
   .proud-cats__header {
-    position: unset;
+    position: fixed;
     display: flex;
     align-items: center;
     z-index: 10000;
@@ -666,7 +674,7 @@ a {
 
   .image-hero-img {
     /*width: 1937px;*/
-    margin-top: 4rem;
+    margin-top: 4.1rem;
     justify-content: center;
     width: clamp(121rem, 152rem, 121.4rem);
     left: 0;
@@ -710,13 +718,17 @@ a {
     gap: 1rem;
     width: 100%;
     position: absolute;
-    margin: 18rem auto 0 auto;
+    margin: 32rem auto 0 auto;
   }
 
   /**/
   .twitter,
   .discord {
-    width: 40px;
+    box-shadow: transparent 0 0 0;
+    fill: #ff9d00;
+    display: block;
+    color: #ff9d00;
+    cursor: pointer;
   }
 
   /*CAT Foot Prints*/
@@ -782,7 +794,11 @@ a {
     border-radius: 0;
   }
 
-  /**/
+  /*Benefit section*/
+  .proud-cats__main__benefit-black-bg {
+    background: #000000;
+  }
+
   .proud-cats__main__benefit {
     height: 68rem;
   }
@@ -833,12 +849,19 @@ a {
     background: #483815;
   }
 
+  .proud-cats__benefit__flex:last-child {
+    position: relative;
+  }
+
   .proud-cats__benefit__sec3 .divider {
     background: #b50303;
   }
 
   .proud-cats__benefit__sec4 {
     justify-content: unset;
+    position: absolute;
+    width: 90%;
+    max-width: 1440px;
   }
 
   .proud-cats__benefit__sec4 .divider {
@@ -850,9 +873,8 @@ a {
   }
 
   /*ROAD MAP*/
-  .proud-cats__main__road-map {
+  .proud-cats__main__road-map .wrapper {
     margin-top: 5rem;
-    margin-bottom: 8rem;
   }
 
   .biking-bg {
@@ -889,15 +911,19 @@ a {
   /*.proud-cats__main__whatsapp-profile */
 
   .proud-cats__main__whatsapp-profile .whatsapp-profile-last-img {
-    width: 635px;
+    width: 100%;
     max-width: unset;
     height: unset;
-    margin: 5rem auto;
     display: flex;
     text-align: center;
   }
 
   /*  members/ */
+
+  .proud-cats__main__team {
+    margin-top: 0;
+  }
+
   .members__container {
     width: 90%;
     max-width: 1440px;
